@@ -1,0 +1,14 @@
+{
+    "champions": ["Ashe", "Yasuo", "Zed", "Lux", "Leona", "Malphite", "Thresh", "Jinx", "Katarina", "Garen"],
+    "synergies": {
+      "Ashe": ["Leona", "Malphite"],
+      "Yasuo": ["Malphite", "Thresh"],
+      "Zed": ["Leona"]
+    },
+    "counterPicks": {
+      "Ashe": ["Thresh", "Zed"],
+      "Yasuo": ["Malphite"],
+      "Zed": ["Lux", "Garen"]
+    }
+  }
+  

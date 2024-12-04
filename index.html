@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends Draft Simulation</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>League of Legends Draft Simulation</h1>
+    </header>
+
+    <main>
+        <!-- Barre de recherche -->
+        <section id="search-section">
+            <input type="text" id="search-input" placeholder="Rechercher un champion...">
+            <ul id="suggestions-list"></ul>
+        </section>
+
+        <!-- Simulation de draft -->
+        <section id="draft-section">
+            <div class="team allies">
+                <h2>Équipe Alliée</h2>
+                <div class="role-cards" id="ally-team">
+                    <div class="role-card" data-role="top">Top</div>
+                    <div class="role-card" data-role="jungle">Jungle</div>
+                    <div class="role-card" data-role="mid">Mid</div>
+                    <div class="role-card" data-role="adc">ADC</div>
+                    <div class="role-card" data-role="support">Support</div>
+                </div>
+            </div>
+            <div class="team enemies">
+                <h2>Équipe Adverse</h2>
+                <div class="role-cards" id="enemy-team">
+                    <div class="role-card" data-role="top">Top</div>
+                    <div class="role-card" data-role="jungle">Jungle</div>
+                    <div class="role-card" data-role="mid">Mid</div>
+                    <div class="role-card" data-role="adc">ADC</div>
+                    <div class="role-card" data-role="support">Support</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>League of Legends Draft Simulation &copy; 2024</p>
+    </footer>
+
+    <script src="src/scripts/app.js"></script>
+</body>
+</html>

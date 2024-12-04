@@ -1,0 +1,12 @@
+{
+  "name": "draftproject",
+  "version": "1.0.0",
+  "description": "Pour créer une IA qui recommande le meilleur champion en fonction des champions alliés et ennemis choisis, et qui tienne compte des données actuelles de la version de League of Legends, voici un plan détaillé pour y parvenir :",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
