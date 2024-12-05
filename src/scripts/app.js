@@ -15,30 +15,59 @@ function setupEventListeners() {
     const suggestionsList = document.getElementById("suggestions-list");
     const roleCards = document.querySelectorAll(".role-card");
 
+    let selectedRoleCard = null; // Référence à la carte sélectionnée
+
     // Recherche dynamique
     searchInput.addEventListener("input", () => {
         const query = searchInput.value.toLowerCase();
         const filteredChampions = championsData.champions.filter(champ =>
-            champ.toLowerCase().includes(query)
+            champ.name.toLowerCase().includes(query) // On filtre par nom de champion
         );
 
         suggestionsList.innerHTML = filteredChampions
-            .map(champ => `<li>${champ}</li>`)
+            .map(champ => `<li data-name="${champ.name}">${champ.name}</li>`) // Ajout d'un attribut data-name pour faciliter l'accès
             .join("");
+    });
+
+    // Cacher les suggestions si on clique en dehors de la barre de recherche
+    document.addEventListener("click", (event) => {
+        if (!searchInput.contains(event.target) && !suggestionsList.contains(event.target)) {
+            suggestionsList.innerHTML = "";
+        }
     });
 
     // Sélectionner un champion depuis les suggestions
     suggestionsList.addEventListener("click", (event) => {
         if (event.target.tagName === "LI") {
-            const selectedChampion = event.target.textContent;
-            searchInput.value = ""; // Vider le champ de recherche
-            suggestionsList.innerHTML = ""; // Vider les suggestions
+            const selectedChampionName = event.target.textContent;
+            const selectedChampion = championsData.champions.find(champ => champ.name === selectedChampionName);
 
-            // Ajouter le champion à une carte sélectionnée
-            const selectedRoleCard = document.querySelector(".role-card.selected");
+            // Remplir la barre de recherche avec le nom du champion cliqué
+            searchInput.value = selectedChampionName;
+
+            // Effacer les suggestions après le clic
+            suggestionsList.innerHTML = "";
+
             if (selectedRoleCard) {
-                selectedRoleCard.textContent = selectedChampion;
-                selectedRoleCard.classList.remove("selected");
+                // Ajouter le champion à la carte sélectionnée
+                selectedRoleCard.textContent = `${selectedChampionName}`;
+
+                // Afficher le rôle du champion (en fonction de ses rôles définis dans le JSON)
+                selectedRoleCard.dataset.roles = selectedChampion.roles.join(", "); // Ajout des rôles du champion en data-attribute
+
+                // Déterminer l'équipe et changer la couleur de la carte
+                if (selectedRoleCard.closest(".allies")) {
+                    selectedRoleCard.classList.remove("selected");
+                    selectedRoleCard.classList.add("ally");
+                } else if (selectedRoleCard.closest(".enemies")) {
+                    selectedRoleCard.classList.remove("selected");
+                    selectedRoleCard.classList.add("enemy");
+                }
+
+                // Réinitialiser la carte sélectionnée
+                selectedRoleCard = null;
+            } else {
+                alert("Veuillez sélectionner une carte avant d'attribuer un champion.");
             }
         }
     });
@@ -46,8 +75,14 @@ function setupEventListeners() {
     // Marquer une carte comme sélectionnée
     roleCards.forEach(card => {
         card.addEventListener("click", () => {
-            roleCards.forEach(card => card.classList.remove("selected"));
-            card.classList.add("selected");
+            // Si une carte est déjà sélectionnée, retirer son style
+            if (selectedRoleCard) {
+                selectedRoleCard.classList.remove("selected");
+            }
+
+            // Mettre à jour la carte sélectionnée
+            selectedRoleCard = card;
+            selectedRoleCard.classList.add("selected");
         });
     });
 }

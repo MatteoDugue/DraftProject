@@ -84,3 +84,26 @@ footer {
 .role-card:hover {
     background-color: #718096;
 }
+
+/* Style pour une carte sélectionnée */
+.role-card.selected {
+    border: 3px solid blue;
+    background-color: #003f8c; /* Bleu foncé */
+    color: white;
+}
+
+/* Style pour une carte alliée */
+.role-card.ally {
+    border: 3px solid green;
+    background-color: #004d00; /* Vert foncé */
+    color: white;
+}
+
+/* Style pour une carte ennemie */
+.role-card.enemy {
+    border: 3px solid red;
+    background-color: #8c0000; /* Rouge foncé */
+    color: white;
+}
+
+

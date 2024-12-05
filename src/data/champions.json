@@ -1,14 +1,1126 @@
 {
-    "champions": ["Ashe", "Yasuo", "Zed", "Lux", "Leona", "Malphite", "Thresh", "Jinx", "Katarina", "Garen"],
-    "synergies": {
-      "Ashe": ["Leona", "Malphite"],
-      "Yasuo": ["Malphite", "Thresh"],
-      "Zed": ["Leona"]
+  "champions": [
+    {
+      "name": "Aatrox",
+      "roles": "Fighter",
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
     },
-    "counterPicks": {
-      "Ashe": ["Thresh", "Zed"],
-      "Yasuo": ["Malphite"],
-      "Zed": ["Lux", "Garen"]
+    {
+      "name": "Ahri",
+      "roles": ["Mage", "Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    } ,
+    {
+      "name": "Akali",
+      "roles": ["Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    } , 
+    {
+      "name": "Akshan",
+      "roles": ["Marksmen", "Assassin"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    } , 
+    {
+      "name": "Alistar",
+      "roles": ["Fighter","Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    } , 
+    {
+      "name": "Ambessa",
+      "roles": ["Mage", "Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    } ,
+    {
+      "name": "Amumu",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    } , 
+    {
+      "name": "Anivia",
+      "roles": ["Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Annie",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Aphelios",
+      "roles": ["Marksmen"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },  
+    {
+      "name": "Ashe",
+      "roles": ["Marksmen", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Aurelion Sol",
+      "roles": ["Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },  
+    {
+      "name": "Aurora",
+      "roles": ["Mage","Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },  
+    {
+      "name": "Azir",
+      "roles": ["Mage", "Marksmen"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Bard",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Bel'Veth",
+      "roles": ["Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Blitzcrank",
+      "roles": ["Tank","Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Brand",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },  
+    {
+      "name": "Braum",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Briar",
+      "roles": ["Fighter","Assassin"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Caitlyn",
+      "roles": ["Marksmen"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    }, 
+    {
+      "name": "Camille",
+      "roles": ["Fighter","Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Cassiopeia",
+      "roles": ["Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Cho'Gath",
+      "roles": ["Tank", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Corki",
+      "roles": ["Mage", "Marksmen"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Darius",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Diana",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Dr. Mundo",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Draven",
+      "roles": ["Marksmen"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Ekko",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Elise",
+      "roles": ["Mage", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Evelynn",
+      "roles": ["Assassin", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Ezreal",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Fiddlesticks",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Fiora",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Fizz",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Galio",
+      "roles": ["Tank", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Gangplank",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Garen",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Gnar",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Gragas",
+      "roles": ["Tank", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Graves",
+      "roles": ["Marksmen", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Gwen",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Hecarim",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Heimerdinger",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Illaoi",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Irelia",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Ivern",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Janna",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Jarvan IV",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Jax",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Jayce",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Jhin",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Jinx",
+      "roles": ["Marksmen"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kai'Sa",
+      "roles": ["Marksmen", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kalista",
+      "roles": ["Marksmen", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Karma",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Karthus",
+      "roles": ["Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kassadin",
+      "roles": ["Mage", "Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Katarina",
+      "roles": ["Assassin", "Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kayle",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kayn",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kennen",
+      "roles": ["Mage", "Marksmen"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kha'Zix",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kindred",
+      "roles": ["Marksmen", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kled",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Kog'Maw",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "LeBlanc",
+      "roles": ["Mage", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Lee Sin",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Leona",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Lillia",
+      "roles": ["Mage", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Lissandra",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Lucian",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Lulu",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Lux",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Malphite",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Malzahar",
+      "roles": ["Mage", "Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Maokai",
+      "roles": ["Tank", "Mage"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Master Yi",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Miss Fortune",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Mordekaiser",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Morgana",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Nami",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Nasus",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Nautilus",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Neeko",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Nidalee",
+      "roles": ["Mage", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Nocturne",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Nunu & Willump",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Olaf",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Orianna",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Ornn",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Pantheon",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Poppy",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Pyke",
+      "roles": ["Assassin", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Qiyana",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Quinn",
+      "roles": ["Marksmen", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Rakan",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Rammus",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Rek'Sai",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Rell",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Renekton",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Rengar",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Riven",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Rumble",
+      "roles": ["Mage", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Ryze",
+      "roles": ["Mage", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Samira",
+      "roles": ["Marksmen", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Sejuani",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Senna",
+      "roles": ["Marksmen", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Seraphine",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Sett",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Shaco",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Shen",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Shyvana",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Singed",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Sion",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Sivir",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Skarner",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Sona",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Soraka",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Swain",
+      "roles": ["Mage", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Sylas",
+      "roles": ["Mage", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Syndra",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Tahm Kench",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Taliyah",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Talon",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Taric",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Teemo",
+      "roles": ["Mage", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Thresh",
+      "roles": ["Tank", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Tristana",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Trundle",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Tryndamere",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Twisted Fate",
+      "roles": ["Mage", "Assassin"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Twitch",
+      "roles": ["Marksmen", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Udyr",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Urgot",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Varus",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Vayne",
+      "roles": ["Marksmen", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Veigar",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Vel'Koz",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Vi",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Viego",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Viktor",
+      "roles": ["Mage", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Vladimir",
+      "roles": ["Mage", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Volibear",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Warwick",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Wukong",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Xayah",
+      "roles": ["Marksmen", "Mage"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Xerath",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Xin Zhao",
+      "roles": ["Fighter", "Tank"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Yasuo",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Yone",
+      "roles": ["Fighter", "Assassin"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Yorick",
+      "roles": ["Fighter", "Mage"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Yuumi",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Zac",
+      "roles": ["Tank", "Fighter"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Zed",
+      "roles": ["Assassin", "Fighter"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Ziggs",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Zilean",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Easy",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Zoe",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Hard",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
+    },
+    {
+      "name": "Zyra",
+      "roles": ["Mage", "Support"],
+      "difficulty": "Medium",
+      "synergies": ["Camille", "Kennen"],
+      "counterPicks": ["Garen", "Fiora"]
     }
-  }
-  
+  ],
+  "roles": ["Top", "Jungle", "Mid", "ADC", "Support"],
+  "difficulties": ["Easy", "Medium", "Hard"]
+}
