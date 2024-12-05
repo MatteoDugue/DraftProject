@@ -10,14 +10,34 @@
     <header>
         <h1>League of Legends Draft Simulation</h1>
     </header>
-
+    <!-- Recherche et fiche du champion -->
+    <section id="champion-details-section">
+        <h2>Recherche un Champion</h2>
+        <input type="text" id="champion-search-input" placeholder="Rechercher un champion...">
+        <ul id="champion-suggestions-list"></ul>
+        
+        <div id="champion-details" style="display: none;">
+            <img id="champion-image" src="" alt="Champion Image" style="width: 150px; height: 150px; display: none;">
+            <h3 id="champion-name"></h3>
+            <p><strong>Rôles:</strong> <span id="champion-roles"></span></p>
+            <p><strong>Difficulté:</strong> <span id="champion-difficulty"></span></p>
+            <p><strong>Type de Dégâts:</strong> <span id="champion-damage-type"></span></p>
+            <h4>Synergies</h4>
+            <ul id="champion-synergies"></ul>
+            <h4>Counterpicks</h4>
+            <ul id="champion-counterpicks"></ul>
+            <button id="add-to-draft-button" style="display: none;">Ajouter à la Draft</button>
+            <a id="champion-guide-link" href="" target="_blank" style="display: none;">Voir les guides</a>
+        </div>
+    </section>
+    
+    <!-- Barre de recherche et filtres -->
     <main>
-        <!-- Barre de recherche -->
         <section id="search-section">
             <input type="text" id="search-input" placeholder="Rechercher un champion...">
             <ul id="suggestions-list"></ul>
         </section>
-
+       
         <!-- Simulation de draft -->
         <section id="draft-section">
             <div class="team allies">
@@ -42,7 +62,7 @@
             </div>
         </section>
     </main>
-
+    
     <footer>
         <p>League of Legends Draft Simulation &copy; 2024</p>
     </footer>

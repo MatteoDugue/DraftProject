@@ -2,101 +2,107 @@
   "champions": [
     {
       "name": "Aatrox",
-      "roles": "Fighter",
+      "roles": ["Fighter","Top"],
       "difficulty": "Medium",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": ["Lux","Caitlyn","Jinx","Jhin","Ahri","Viego"],
+      "counterPicks": ["Singed","Kayle", "Heimerdinger","Malphite","Akali","Irelia"],
+      "damageType": "Physical"
     },
     {
       "name": "Ahri",
-      "roles": ["Mage", "Assassin"],
+      "roles": ["Mage", "Assassin","Mid"],
       "difficulty": "Medium",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": ["Briar","Nocturne","Malphite","Miss Fortune","Nami","Vel'Koz"],
+      "counterPicks": ["Veigar","Talon","Malzahar","Irelia","Zed","Fizz"],
+      "damageType": "Magic"
     } ,
     {
       "name": "Akali",
-      "roles": ["Assassin"],
+      "roles": ["Assassin","Mid"],
       "difficulty": "Medium",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": ["Shyvana","Nocturne"],
+      "counterPicks": ["Pantheon","Naafiri","Galio","Irelia","Talon"],
+      "damageType": "Magic"
     } , 
     {
       "name": "Akshan",
-      "roles": ["Marksmen", "Assassin"],
+      "roles": ["Marksmen", "Assassin","Mid"],
       "difficulty": "Easy",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": ["Trundle","Jarvan IV","Shyvana","Rammus","Karthus","Fiddlesticks"],
+      "counterPicks": ["Ambessa","Anivia","Ryze","Aurelion Sol"],
+      "damageType": "Physical"
     } , 
     {
       "name": "Alistar",
-      "roles": ["Fighter","Assassin"],
+      "roles": ["Fighter","Assassin","Support"],
       "difficulty": "Hard",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": ["Sivir","Aphelios"],
+      "counterPicks": ["Teemo","Vel'Koz","Karma","Brand"],
+      "damageType": "Magic"
     } , 
     {
       "name": "Ambessa",
-      "roles": ["Mage", "Assassin"],
+      "roles": ["Mage", "Assassin","Top"],
       "difficulty": "Medium",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": ["Dr.Mundo","Fiddlesticks"],
+      "counterPicks": ["Volibear","Warwick","Teemo"],
+      "damageType": "Physical"
     } ,
     {
       "name": "Amumu",
-      "roles": ["Tank", "Support"],
+      "roles": ["Tank", "Support","Jungle"],
       "difficulty": "Easy",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": [],
+      "counterPicks": ["Dr.Mundo","Trundle","Kayn"]
     } , 
     {
       "name": "Anivia",
-      "roles": ["Mage"],
+      "roles": ["Mage", "Mid"],
       "difficulty": "Hard",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": [],
+      "counterPicks": ["Naafiri","Taliyah","Twisted Fate"]
     }, 
     {
       "name": "Annie",
-      "roles": ["Mage", "Support"],
+      "roles": ["Mage", "Support","Mid"],
       "difficulty": "Medium",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": [],
+      "counterPicks": ["Naafiri","Talon","Vel'Koz"]
     }, 
     {
       "name": "Aphelios",
-      "roles": ["Marksmen"],
+      "roles": ["Marksmen", "ADC"],
       "difficulty": "Hard",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": [],
+      "counterPicks": ["Nilah","Kog'Maw","Miss Fortune"]
     },  
     {
       "name": "Ashe",
-      "roles": ["Marksmen", "Support"],
+      "roles": ["Marksmen", "Support","ADC"],
       "difficulty": "Medium",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": [],
+      "counterPicks": ["Swain","Ziggs","Nilah"]
     }, 
     {
       "name": "Aurelion Sol",
-      "roles": ["Mage"],
+      "roles": ["Mage", "Mid"],
       "difficulty": "Medium",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": [],
+      "counterPicks": ["Heimerdinger","Diana","Yone"]
     },  
     {
       "name": "Aurora",
-      "roles": ["Mage","Assassin"],
+      "roles": ["Mage","Assassin","Mid"],
       "difficulty": "Medium",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": [],
+      "counterPicks": ["Heimerdinger","Veigar","Malzahar"]
     },  
     {
       "name": "Azir",
-      "roles": ["Mage", "Marksmen"],
+      "roles": ["Mage", "Marksmen","Mid"],
       "difficulty": "Hard",
-      "synergies": ["Camille", "Kennen"],
-      "counterPicks": ["Garen", "Fiora"]
+      "synergies": ["Rammus","Volibear"],
+      "counterPicks": ["Vel'Koz","Malzahar","Orianna"]
     }, 
     {
       "name": "Bard",
